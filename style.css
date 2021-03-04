@@ -1,0 +1,25 @@
+ul {
+  list-style-type: none;
+}
+
+.circle {
+  color: #deebff;
+}
+.logo {
+  color: #0065fc;
+}
+.flitre {
+  border: 2px red solid;
+  border-radius: 50px;
+}
+.icon {
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+}
+.txtreduit {
+  font-size: small;
+}
+footer {
+  background-color: #f2f2f2;
+}
