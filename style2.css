@@ -1,0 +1,68 @@
+/*Body*/
+body {
+  width: 100%;
+  font-family: Raleway;
+}
+#content {
+  width: 50%;
+  margin: auto;
+}
+@font-face {
+  font-family: Raleway;
+  src: url(polices/Raleway/static/Raleway-Regular.ttf);
+}
+
+ul {
+  list-style-type: none;
+}
+/*Header*/
+#Top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin-bottom: 1px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+.lien a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+.fa-stack {
+  font-size: 10px;
+}
+/*main*/
+.cadre {
+  width: 230px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px slategrey;
+}
+figcaption {
+  padding: 10px;
+}
+
+figure img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 250px;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+}
+.txtreduit {
+  font-size: small;
+}
+.Footerbox li {
+  padding: 5px;
+}
