@@ -1,46 +1,15 @@
-ul {
-  list-style-type: none;
-}
-/* Header */
-.logonav {
-  display: flex;
-  justify-content: space-between;
-}
-#listefiltre {
-  display: flex;
-  justify-self: space-around;
+#input {
+  border: none;
+  padding: 10px;
+  margin: 0px;
+  width: ;
 }
 
-.circle {
-  color: #deebff;
-}
-.logo {
-  color: #0065fc;
-}
-.flitre {
-  border: 2px red solid;
-  border-radius: 50px;
-}
-.icon {
-  font-size: 20px;
-  position: absolute;
-  right: 20px;
-}
-.txtreduit {
-  font-size: small;
-}
-footer {
-  background-color: #f2f2f2;
-}
-/* Body */
-
-.aside1 {
-  background-color: #f2f2f2;
-}
-
-.VP {
-  width: 300px;
-  height: 400px;
-  box-shadow: 6px 6px 6px black;
-  border-radius: 50px;
+#recherche {
+  border: none;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px 20px 20px 0px;
+  color: blanchedalmond;
+  background-color: steelblue;
 }

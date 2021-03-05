@@ -1,97 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styletest.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <title>Reservia</title>
+    <title>Document</title>
   </head>
-
   <body>
-    <header>
-      <section class="logonav">
-        <img src="images/logo/Reservia@3x.png" alt="logo" style="width: 5%" />
-        <nav>
-          <a href="">Hébergement</a>
-          <a href="">Activités</a>
-          <a href="">S'inscrire</a>
-        </nav>
-      </section>
-      <section>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p class="txtreduit">En plein centreville ou en pleine nature</p>
-        <i class="fas fa-map-marker-alt"></i
-        ><!--element de rechercher voir la balise "Form"-->
-        <ul id="listefiltre">
-          <li>Filtres</li>
-          <li class="flitre">
-            <span class="fa-stack icon">
-              <i class="fas fa-circle fa-stack-2x circle"></i>
-              <i class="fas fa-money-bill-wave fa-stack-1x logo"></i>
-            </span>
-            Économique
-          </li>
-          <li>Famillial</li>
-          <li>Romantique</li>
-          <li>Animaux autorisés</li>
-        </ul>
-        <p class="txtreduit">
-          <i class="fas fa-info"></i> Plus de 500 logements sont disponibles
-          dans cette ville
-        </p>
-      </section>
-    </header>
-    <section>
-      <aside class="aside1">
-        <p>Hébergements à Marseille</p>
-      </aside>
-      <aside class="aside1">
-        <p>Les plus populaires</p>
-      </aside>
-    </section>
-    <section>
-      <p>Activités à Marseille</p>
-      <div>
-        <figure class="VP">
-          <img
-            src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg "
-            alt="vieux port"
-            style="width: 100%"
-          />
-          <figcaption>Vieux port</figcaption>
-        </figure>
-      </div>
-    </section>
-    <footer>
-      <div>
-        <ul>
-          <li><strong>A propos</strong></li>
-          <li class="txtreduit">Fonctionnement du site</li>
-          <li class="txtreduit">Condition générales de vente</li>
-          <li class="txtreduit">Donneés et confidentialité</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><strong>Nos hébergement</strong></li>
-          <li class="txtreduit">Charte qualité</li>
-          <li class="txtreduit">Soumettre votre hôtel</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><strong>Assistance</strong></li>
-          <li class="txtreduit">Centre d'aide</li>
-          <li class="txtreduit">Nous contacter</li>
-        </ul>
-      </div>
-    </footer>
+    <div>
+      <form>
+        <i class="fas fa-map-marker-alt"></i>
+        <input type="text" id="input" />
+        <input type="button" value="Recherche" id="recherche" />
+      </form>
+    </div>
   </body>
 </html>
