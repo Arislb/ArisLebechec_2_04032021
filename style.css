@@ -1,10 +1,10 @@
-/*Body*/
+/*Body------------------------------------------------------------*/
 body {
   width: 100%;
   font-family: Raleway;
 }
 #content {
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 @font-face {
@@ -15,7 +15,7 @@ body {
 ul {
   list-style-type: none;
 }
-/*Header*/
+/*Header--------------------------------------------------------*/
 #Top-header {
   display: flex;
   justify-content: space-between;
@@ -33,32 +33,97 @@ nav {
   padding: 5px;
   text-decoration: none;
 }
+/*barre de recherche D*/
+
+.icon_map {
+  background-color: #f2f2f2;
+  display: inline-block;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+}
+#input {
+  border: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+#recherche {
+  border: none;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  background-color: #0065fc;
+}
+/*barre de recherche F*/
 
 .fa-stack {
   font-size: 10px;
 }
-/*main*/
-.cadre {
-  width: 230px;
-  height: 300px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px slategrey;
+/*main------------------------------------------------------------*/
+/*Hébergement*/
+#HetP {
+  display: flex;
+  justify-content: space-around;
 }
-figcaption {
-  padding: 10px;
+.hebergement {
+  width: 70%;
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+}
+.populaires {
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+}
+/* activités à Marseille*/
+#actlist {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.colonne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 400px;
 }
 
-figure img {
-  border-radius: 20px 20px 0px 0px;
+.carte,
+.carteS,
+.carteM {
+  margin: 0px;
   width: 100%;
-  height: 250px;
+  height: 100%;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px grey;
 }
 
-/*Footer*/
+.carteM {
+  height: 40%;
+}
+.carteS {
+  height: 30%;
+}
+
+.photo {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+figcaption {
+  padding: 8px;
+}
+
+/*Footer--------------------------------------------------------------*/
 footer {
   display: flex;
   justify-content: space-around;
   background-color: #f2f2f2;
+  margin-top: 60px;
 }
 .txtreduit {
   font-size: small;

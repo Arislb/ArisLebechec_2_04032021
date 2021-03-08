@@ -1,3 +1,47 @@
+/*Body------------------------------------------------------------*/
+
+body {
+  width: 100%;
+  font-family: Raleway;
+}
+#content {
+  width: 70%;
+  margin: auto;
+}
+@font-face {
+  font-family: Raleway;
+  src: url(polices/Raleway/static/Raleway-Regular.ttf);
+}
+
+ul {
+  list-style-type: none;
+}
+/*Header--------------------------------------------------------*/
+#Top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin-bottom: 1px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+.lien a {
+  padding: 5px;
+  text-decoration: none;
+}
+/*barre de recherche D*/
+
+.icon_map {
+  background-color: #f2f2f2;
+  display: inline-block;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+}
 #input {
   border: none;
   padding: 10px;
@@ -9,7 +53,61 @@
   border: none;
   padding: 10px;
   margin: 0px;
-  border-radius: 0px 20px 20px 0px;
-  color: blanchedalmond;
-  background-color: steelblue;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  background-color: #0065fc;
+}
+/*barre de recherche F*/
+
+.fa-stack {
+  font-size: 10px;
+}
+/*main------------------------------------------------------------*/
+figure {
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+/*Hébergement*/
+#HetP {
+  display: flex;
+  justify-content: space-around;
+}
+.hebergement {
+  width: 70%;
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+}
+.populaires {
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+}
+/* activités à Marseille*/
+
+.liste_act {
+  display: flex;
+}
+
+.carte {
+  width: 100%;
+  height: 88%;
+  border-radius: 20px 20px 0px 0px;
+}
+.carte_acti {
+  width: 250px;
+  height: 400px;
+}
+figcaption {
+  padding: 5px;
+}
+/*Footer--------------------------------------------------------------*/
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+}
+.txtreduit {
+  font-size: small;
+}
+.Footerbox li {
+  padding: 5px;
 }
