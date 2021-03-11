@@ -60,8 +60,8 @@ nav {
 .fa-stack {
   font-size: 10px;
 }
-/*main------------------------------------------------------------*/
-/*Hébergement*/
+/*---------------------------------------------------------MAIN------------------------------------------------------------*/
+/*---------------------------------Hébergement*/
 #HetP {
   display: flex;
   justify-content: space-around;
@@ -75,7 +75,36 @@ nav {
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
 }
-/*Hébergement à Marseille*/
+/*--Les plus populaires--*/
+.popu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+  width: 25rem;
+  height: 29rem;
+}
+.pcolonne {
+  background-color: red;
+  width: 50%;
+  height: 70%;
+}
+.pcarte {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  height: 40%;
+  width: 70%;
+}
+.pphoto {
+  border-radius: 20px 0 0 20px;
+  object-fit: cover;
+  width: 40%;
+  height: 100%;
+}
+
+/*--Hébergement à Marseille--*/
 #acth {
   background-color: red;
   margin: 0;
