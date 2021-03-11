@@ -16,13 +16,12 @@ ul {
   list-style-type: none;
 }
 /*Header--------------------------------------------------------*/
+#logo {
+  width: 80px;
+}
 #Top-header {
   display: flex;
   justify-content: space-between;
-}
-
-h1 {
-  margin-bottom: 1px;
 }
 
 nav {
@@ -60,23 +59,103 @@ nav {
 .fa-stack {
   font-size: 10px;
 }
-/*main------------------------------------------------------------*/
+/*-------------------------------------------------------------------main------------------------------------------------------------*/
 /*Hébergement*/
 #HetP {
   display: flex;
   justify-content: space-around;
 }
-.hebergement {
-  width: 70%;
-  background-color: #f2f2f2;
-  border-radius: 10px 10px 10px 10px;
-}
+
 .populaires {
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
 }
 /*Hébergement à Marseille*/
+.hebergement {
+  width: 70%;
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+}
+#acth {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 30rem;
+}
+.hcolonne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 19rem;
+  height: 100%;
+}
+.hcarte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 80%;
+  height: 40%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+.hphoto {
+  object-fit: cover;
+  width: 100%;
+  height: 60%;
+  border-radius: 20px 20px 0 0;
+}
+.etoile i {
+  color: #0065fc;
+}
+.gris {
+  color: #f2f2f2 !important;
+}
 
+/*Les plus populaires*/
+.populaires {
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+  padding: 25px;
+}
+
+#h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+.pcolonne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+
+  height: 100%;
+}
+.pcarte {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0;
+  padding: 5px;
+  width: 20rem;
+  height: 7.5rem;
+}
+.pphoto {
+  object-fit: cover;
+  border-radius: 20px 0 0 20px;
+  width: 35%;
+  height: 100%;
+}
+.pade {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 /* activités à Marseille*/
 #actlist {
   margin: 0px;
@@ -88,8 +167,8 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 300px;
-  height: 400px;
+  width: 19rem;
+  height: 25rem;
 }
 
 .carte,
