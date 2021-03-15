@@ -31,6 +31,10 @@ nav {
   padding: 5px;
   text-decoration: none;
 }
+.barre {
+  padding-top: 2rem;
+  border-top: 1px #0065fc solid;
+}
 /*barre de recherche D*/
 
 .icon_map {
@@ -80,7 +84,7 @@ nav {
 /*Hébergement*/
 #HetP {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .populaires {
