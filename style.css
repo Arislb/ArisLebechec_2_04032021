@@ -7,10 +7,6 @@ body {
   width: 70%;
   margin: auto;
 }
-@font-face {
-  font-family: Raleway;
-  src: url(polices/Raleway/static/Raleway-Regular.ttf);
-}
 
 ul {
   list-style-type: none;
