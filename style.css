@@ -1,4 +1,4 @@
-/*Body------------------------------------------------------------*/
+/*-----------------------------------------------------Body------------------------------------------------------------*/
 body {
   width: 100%;
   font-family: Raleway;
@@ -111,6 +111,13 @@ nav {
   width: 19rem;
   height: 100%;
 }
+.hcarte a { 
+  margin: 0;
+  padding: 0;
+  width:auto;
+  height: 60%;
+display: block;}
+
 .hcarte {
   display: flex;
   flex-direction: column;
@@ -125,7 +132,7 @@ nav {
 .hphoto {
   object-fit: cover;
   width: 100%;
-  height: 60%;
+  height:100%;
   border-radius: 20px 20px 0 0;
 }
 .etoile i {
@@ -154,8 +161,17 @@ nav {
   align-items: center;
   justify-content: space-around;
   margin: 0;
-
+  width: auto;
   height: 100%;
+}
+.pcarte a{
+  margin: 0;
+  padding: 0;
+  width:35%;
+  height: auto;
+  
+
+
 }
 .pcarte {
   display: flex;
@@ -169,7 +185,7 @@ nav {
 .pphoto {
   object-fit: cover;
   border-radius: 20px 0 0 20px;
-  width: 35%;
+  width: 100%;
   height: 100%;
 }
 .pade {
