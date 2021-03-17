@@ -21,7 +21,7 @@
   <body>
     <div id="content">
       <header>
-        <section id="Top-header">
+        <section id="Top-header"><!-- Logo et navigation-->
           <!-- Logo et navigation-->
           <img
             id="logo"
@@ -30,8 +30,8 @@
           />
 
           <nav class="lien">
-            <a class="blue barre" href="">Hébergement</a>
-            <a href="">Activités</a>
+            <a class="blue barre" href="#Hébergement">Hébergement</a>
+            <a href="#Activités">Activités</a>
             <a class="blue" href=""> <strong>S'inscrire</strong></a>
           </nav>
         </section>
@@ -39,7 +39,7 @@
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
           <p class="txtreduit">En plein centre ville ou pleine nature</p>
 
-          <div>
+          <div><!--Barre de recherche-->
             <!--Barre de recherche-->
             <form>
               <i class="fas fa-map-marker-alt icon_map"></i>
@@ -47,9 +47,12 @@
               <input type="button" value="Recherche" id="recherche"/>
             </form>
           </div>
-          <div><!--Filtre de recherche-->
+          <div class="filtre"><!--Filtre de recherche-->
             <p><strong>Filtres</strong></p>
             <button class="bouton"> <i class="fas fa-money-bill-wave filtreicon"></i> <strong>Economique</strong></button>
+            <button class="bouton"> <i class="fas fa-child filtreicon"></i> <strong>Familial</strong></button>
+            <button class="bouton"> <i class="fas fa-heart filtreicon"></i> <strong>Romantique</strong></button>
+            <button class="bouton"> <i class="fas fa-dog filtreicon"></i> <strong>Animaux autorisés</strong></button>
           </div>
 
           <p>
@@ -64,7 +67,7 @@
         <section id="HetP">
           <!--Section hebergement-->
           <div class="hebergement">
-            <h2>Hébergements à Marseille</h2>
+            <h2 id="Hébergement">Hébergements à Marseille</h2>
             <div id="acth">
               <div class="hcolonne">
                 <figure class="hcarte">
@@ -163,7 +166,9 @@
                 </figure>
               </div>
             </div>
-            <p><strong>Afficher plus</strong></p>
+            <div id="afficherplus"><p><strong>Afficher plus</strong></p>
+            </div>
+            
           </div>
 
           <aside class="populaires">
@@ -211,7 +216,7 @@
             </div>
           </aside>
         </section>
-        <h2>Activités a Marseille</h2>
+        <h2 id="Activités">Activités a Marseille</h2>
         <!--Cartes d'activités vvv-->
         <section id="actlist">
           <div class="colonne">

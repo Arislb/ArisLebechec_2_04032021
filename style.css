@@ -59,6 +59,10 @@ nav {
 }
 /*barre de recherche F*/
 
+.filtre{
+  display: flex;
+}
+
 .bouton {
   font-family: Raleway;
   background-color: white;
@@ -66,6 +70,9 @@ nav {
   border-radius: 25px;
   padding: 0;
   padding-right: 1rem;
+}
+.bouton:hover{
+  border:2px solid #0065fc;
 }
 .filtreicon {
   color: #0065fc;
@@ -78,7 +85,7 @@ nav {
 }
 
 .fa-stack {
-  font-size: 10px;
+  font-size: 12px;
 }
 /*-------------------------------------------------------------------main------------------------------------------------------------*/
 /*Hébergement*/
@@ -92,6 +99,9 @@ nav {
   border-radius: 10px 10px 10px 10px;
 }
 /*Hébergement à Marseille*/
+#Hébergement{
+  padding-left: 1.6rem;
+}
 .hebergement {
   width: 65%;
   background-color: #f2f2f2;
@@ -140,6 +150,10 @@ display: block;}
 }
 .gris {
   color: #f2f2f2 !important;
+}
+
+#afficherplus{
+  padding-left: 1.8rem;
 }
 
 /*Les plus populaires*/
