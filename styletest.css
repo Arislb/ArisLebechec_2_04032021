@@ -1,5 +1,6 @@
-/*Body------------------------------------------------------------*/
+/*-----------------------------------------------------Body------------------------------------------------------------*/
 body {
+  margin: 0;
   width: 100%;
   font-family: Raleway;
 }
@@ -7,31 +8,39 @@ body {
   width: 70%;
   margin: auto;
 }
-@font-face {
-  font-family: Raleway;
-  src: url(polices/Raleway/static/Raleway-Regular.ttf);
-}
 
 ul {
   list-style-type: none;
 }
-/*Header--------------------------------------------------------*/
+.blue {
+  color: #0065fc;
+}
+/*-------------------------------------------------------Header--------------------------------------------------------*/
+#logo {
+  width: auto;
+  height: 3rem;
+}
 #Top-header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-}
-
-h1 {
-  margin-bottom: 1px;
 }
 
 nav {
   display: flex;
   align-items: center;
 }
+nav a {
+  line-height: 4rem;
+  margin-left: 3.5rem;
+}
 .lien a {
   padding: 5px;
   text-decoration: none;
+}
+.barre {
+  padding-top: 2rem;
+  border-top: 1px #0065fc solid;
 }
 /*barre de recherche D*/
 
@@ -57,57 +66,79 @@ nav {
 }
 /*barre de recherche F*/
 
-.fa-stack {
-  font-size: 10px;
+/* .bouton {
+  font-family: Raleway;
+  background-color: white;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  padding: 0;
+  padding-right: 1rem;
 }
-/*---------------------------------------------------------MAIN------------------------------------------------------------*/
-/*---------------------------------Hébergement*/
-#HetP {
+.bouton:hover {
+  border: 2px solid #0065fc;
+}
+.filtreicon {
+  color: #0065fc;
+  padding: 15px;
+  background-color: #deebff;
+  border-radius: 100%;
+  position: relative;
+  right: 0.5rem;
+  z-index: 1;
+  font-size: 20px;
+} */
+.bouton2 {
   display: flex;
   justify-content: space-around;
-  background-color: turquoise;
+  align-items: center;
+  font-family: Raleway;
+  background-color: white;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  max-width: 11rem;
+  height: 2.5rem;
 }
-.hebergement {
-  width: 60%;
-  background-color: #f2f2f2;
-  border-radius: 10px 10px 10px 10px;
+.filtreicon2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0065fc;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  background-color: #deebff;
+  position: relative;
+  right: 0.5rem;
+  /* z-index: 1; */
 }
+.fa-money-bill-wave,
+.fa-child {
+  font-size: 1.2rem;
+}
+.fa-stack {
+  font-size: 12px;
+}
+/*-------------------------------------------------------------------main------------------------------------------------------------*/
+/*Hébergement*/
+#HetP {
+  display: flex;
+  justify-content: space-between;
+}
+
 .populaires {
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
 }
-/*--Les plus populaires--*/
-.popu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: yellow;
-  width: 25rem;
-  height: 29rem;
+/*Hébergement à Marseille*/
+#Hébergement {
+  padding-left: 1.6rem;
 }
-.pcolonne {
-  background-color: red;
-  width: 50%;
-  height: 70%;
+.hebergement {
+  width: 65%;
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
 }
-.pcarte {
-  display: flex;
-  background-color: white;
-  border-radius: 20px;
-  padding: 5px;
-  height: 40%;
-  width: 70%;
-}
-.pphoto {
-  border-radius: 20px 0 0 20px;
-  object-fit: cover;
-  width: 40%;
-  height: 100%;
-}
-
-/*--Hébergement à Marseille--*/
 #acth {
-  background-color: red;
   margin: 0;
   display: flex;
   justify-content: space-around;
@@ -118,14 +149,21 @@ nav {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: green;
   width: 19rem;
   height: 100%;
 }
+.hcarte a {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 60%;
+  display: block;
+}
+
 .hcarte {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: ; /* correction  de centre a none, les textes bulles n'étais pas alligné a droite*/
   margin: 0;
   width: 80%;
   height: 40%;
@@ -136,7 +174,7 @@ nav {
 .hphoto {
   object-fit: cover;
   width: 100%;
-  height: 60%;
+  height: 100%;
   border-radius: 20px 20px 0 0;
 }
 .etoile i {
@@ -145,7 +183,60 @@ nav {
 .gris {
   color: #f2f2f2 !important;
 }
-/* activités à Marseille*/
+
+#afficherplus {
+  padding-left: 1.8rem;
+}
+
+/*Les plus populaires*/
+.populaires {
+  background-color: #f2f2f2;
+  border-radius: 10px 10px 10px 10px;
+  padding: 25px;
+}
+
+#h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+.pcolonne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  width: auto;
+  height: 100%;
+}
+.pcarte a {
+  margin: 0;
+  padding: 0;
+  width: 35%;
+  height: auto;
+}
+.pcarte {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0;
+  padding: 5px;
+  width: 20rem;
+  height: 7.5rem;
+}
+.pphoto {
+  object-fit: cover;
+  border-radius: 20px 0 0 20px;
+  width: 100%;
+  height: 100%;
+}
+.pade {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*__________________________________________activités à Marseille*/
 #actlist {
   margin: 0px;
   display: flex;
@@ -190,7 +281,7 @@ figcaption {
   padding: 8px;
 }
 
-/*Footer--------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------Footer--------------------------------------------------------------*/
 footer {
   display: flex;
   justify-content: space-around;

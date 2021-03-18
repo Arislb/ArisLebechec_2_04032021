@@ -1,5 +1,6 @@
 /*-----------------------------------------------------Body------------------------------------------------------------*/
 body {
+  margin: 0;
   width: 100%;
   font-family: Raleway;
 }
@@ -16,16 +17,22 @@ ul {
 }
 /*-------------------------------------------------------Header--------------------------------------------------------*/
 #logo {
-  width: 80px;
+  width: auto;
+  height: 3rem;
 }
 #Top-header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 nav {
   display: flex;
   align-items: center;
+}
+nav a {
+  line-height: 4rem;
+  margin-left: 3.5rem;
 }
 .lien a {
   padding: 5px;
@@ -58,31 +65,62 @@ nav {
   background-color: #0065fc;
 }
 /*barre de recherche F*/
-
-.filtre{
+.filtre {
   display: flex;
 }
-
-.bouton {
+.bouton2 {
+  margin-left: 2rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Raleway;
+  background-color: white;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  max-width: 13rem;
+  height: 2.5rem;
+}
+.filtreicon2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0065fc;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  background-color: #deebff;
+  position: relative;
+  right: 0.5rem;
+  /* z-index: 1; */
+}
+.fa-money-bill-wave,
+.fa-child,
+.fa-dog,
+.fa-heart {
+  font-size: 1.2rem;
+}
+/* .bouton {
   font-family: Raleway;
   background-color: white;
   border: 2px solid #f2f2f2;
   border-radius: 25px;
   padding: 0;
   padding-right: 1rem;
+} */
+.bouton2:hover {
+  border: 2px solid #0065fc;
 }
-.bouton:hover{
-  border:2px solid #0065fc;
-}
-.filtreicon {
+/* .filtreicon {
   color: #0065fc;
-  padding: 15px;
+  padding:15px;
   background-color: #deebff;
   border-radius: 100%;
   position: relative;
   right: 0.5rem;
   z-index: 1;
-}
+  font-size: 20px;
+} */
 
 .fa-stack {
   font-size: 12px;
@@ -99,7 +137,7 @@ nav {
   border-radius: 10px 10px 10px 10px;
 }
 /*Hébergement à Marseille*/
-#Hébergement{
+#Hébergement {
   padding-left: 1.6rem;
 }
 .hebergement {
@@ -121,12 +159,13 @@ nav {
   width: 19rem;
   height: 100%;
 }
-.hcarte a { 
+.hcarte a {
   margin: 0;
   padding: 0;
-  width:auto;
+  width: auto;
   height: 60%;
-display: block;}
+  display: block;
+}
 
 .hcarte {
   display: flex;
@@ -142,7 +181,7 @@ display: block;}
 .hphoto {
   object-fit: cover;
   width: 100%;
-  height:100%;
+  height: 100%;
   border-radius: 20px 20px 0 0;
 }
 .etoile i {
@@ -152,7 +191,7 @@ display: block;}
   color: #f2f2f2 !important;
 }
 
-#afficherplus{
+#afficherplus {
   padding-left: 1.8rem;
 }
 
@@ -178,10 +217,10 @@ display: block;}
   width: auto;
   height: 100%;
 }
-.pcarte a{
+.pcarte a {
   margin: 0;
   padding: 0;
-  width:35%;
+  width: 35%;
   height: auto;
 }
 .pcarte {
