@@ -60,6 +60,8 @@ form {
   padding: 10px;
   margin: 0px;
   outline: none;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 #recherche {
