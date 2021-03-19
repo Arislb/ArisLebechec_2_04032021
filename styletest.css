@@ -44,12 +44,20 @@ nav a {
 }
 /*barre de recherche D*/
 
+/* form {
+  border: 2px solid black;
+  border-radius: 10px 10px 10px 10px;
+} */
+/* 
 .icon_map {
   background-color: #f2f2f2;
   display: inline-block;
+  justify-content: center;
   border-radius: 10px 0px 0px 10px;
   padding: 10px;
+  padding-right: 1rem;
 }
+
 #input {
   border: none;
   padding: 10px;
@@ -63,8 +71,9 @@ nav a {
   border-radius: 0px 10px 10px 0px;
   color: white;
   background-color: #0065fc;
-}
-/*barre de recherche F*/
+} */
+
+/*-------------------------------------------------barre de recherche F*/
 
 /* .bouton {
   font-family: Raleway;
@@ -163,7 +172,6 @@ nav a {
 .hcarte {
   display: flex;
   flex-direction: column;
-  align-items: ; /* correction  de centre a none, les textes bulles n'étais pas alligné a droite*/
   margin: 0;
   width: 80%;
   height: 40%;

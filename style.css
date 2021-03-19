@@ -42,8 +42,13 @@ nav a {
   padding-top: 2rem;
   border-top: 1px #0065fc solid;
 }
-/*barre de recherche D*/
+/*--------------------------barre de recherche D*/
 
+form {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .icon_map {
   background-color: #f2f2f2;
   display: inline-block;
@@ -54,6 +59,7 @@ nav a {
   border: none;
   padding: 10px;
   margin: 0px;
+  outline: none;
 }
 
 #recherche {
@@ -64,7 +70,7 @@ nav a {
   color: white;
   background-color: #0065fc;
 }
-/*barre de recherche F*/
+/*------------------------barre de recherche F*/
 .filtre {
   display: flex;
 }
@@ -177,6 +183,7 @@ nav a {
   background-color: white;
   border-radius: 20px;
   padding: 5px;
+  box-shadow: 5px 5px 5px grey;
 }
 .hphoto {
   object-fit: cover;
@@ -231,6 +238,7 @@ nav a {
   padding: 5px;
   width: 20rem;
   height: 7.5rem;
+  box-shadow: 5px 5px 5px grey;
 }
 .pphoto {
   object-fit: cover;
