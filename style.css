@@ -323,20 +323,37 @@ footer {
 /*------------------------------------------------------------------RESPONSIVE DESIGN---------------------------------------------------------------------------------------------*/
 
 @media all and (max-device-width: 480px) {
-  /*---------------------------------------------Body---*/
+  /*---------------------------------------------Body---------------*/
   body {
     width: 100%;
   }
   #content {
     width: 100%;
   }
-  /*---------------------------------------------Main---*/
+  /*---------------------------------------------header-------------*/
+  nav a {
+    margin: 0;
+  }
+  /*---------------------------------------------Main----------------*/
   .hebergement {
     background-color: red;
+    width: 100%;
   }
   #acth {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
   }
+
+  .populaires {
+    width: 100%;
+  }
+  /*--------------------------------Activité à Marseille*/
+  #actlist {
+    justify-content: center;
+  }
+
   /*---------------------------------------------Footer---*/
   footer {
     display: flex;
