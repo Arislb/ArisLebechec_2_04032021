@@ -75,6 +75,7 @@ form {
 /*------------------------barre de recherche F*/
 .filtre {
   display: flex;
+  flex-wrap: wrap;
 }
 .bouton2 {
   margin-left: 2rem;
@@ -138,6 +139,7 @@ form {
 #HetP {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 
 .populaires {
@@ -317,4 +319,27 @@ footer {
 }
 .Footerbox li {
   padding: 5px;
+}
+/*------------------------------------------------------------------RESPONSIVE DESIGN---------------------------------------------------------------------------------------------*/
+
+@media all and (max-device-width: 480px) {
+  /*---------------------------------------------Body---*/
+  body {
+    width: 100%;
+  }
+  #content {
+    width: 100%;
+  }
+  /*---------------------------------------------Main---*/
+  .hebergement {
+    background-color: red;
+  }
+  #acth {
+    flex-wrap: wrap;
+  }
+  /*---------------------------------------------Footer---*/
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
