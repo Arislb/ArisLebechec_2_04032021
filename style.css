@@ -135,7 +135,7 @@ form {
   font-size: 12px;
 }
 /*-------------------------------------------------------------------main------------------------------------------------------------*/
-/*Hébergement*/
+/*-------------------------------Hébergement---------------------*/
 #HetP {
   display: flex;
   justify-content: space-between;
@@ -146,7 +146,7 @@ form {
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
 }
-/*Hébergement à Marseille*/
+/*_____________________________Hébergement à Marseille*/
 #Hébergement {
   margin-top: 2.1rem;
   margin-bottom: 0;
@@ -208,7 +208,7 @@ form {
   padding-left: 1.8rem;
 }
 
-/*Les plus populaires*/
+/*___________________________________________Les plus populaires*/
 
 .populaires {
   background-color: #f2f2f2;
@@ -320,9 +320,9 @@ footer {
 .Footerbox li {
   padding: 5px;
 }
-/*------------------------------------------------------------------RESPONSIVE DESIGN---------------------------------------------------------------------------------------------*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++RESPONSIVE DESIGN++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-@media all and (max-device-width: 480px) {
+@media screen and (max-width: 470px) {
   /*---------------------------------------------Body---------------*/
   body {
     width: 100%;
@@ -353,7 +353,7 @@ footer {
   .populaires {
     width: 100%;
   }
-  /*--------------------------------Activité à Marseille*/
+  /*--------------------------------Activité-à-Marseille*/
   #actlist {
     justify-content: center;
   }
