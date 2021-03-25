@@ -5,7 +5,7 @@ body {
   font-family: Raleway;
 }
 #content {
-  width: 90%;
+  width: 75%;
   margin: auto;
 }
 
@@ -39,7 +39,13 @@ nav a {
   text-decoration: none;
 }
 #barremobile a {
+  padding-top: 2rem;
   color: black;
+}
+#barremobile a:hover {
+  transition: 0.4ms;
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
 }
 .barre {
   /* padding-top: 2rem;
@@ -92,6 +98,10 @@ form {
   border-radius: 25px;
   max-width: 13rem;
   height: 2.5rem;
+}
+.bouton2 a {
+  text-decoration: none;
+  color: black;
 }
 .filtreicon2 {
   display: flex;
