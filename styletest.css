@@ -418,12 +418,21 @@ footer {
   #recherche {
     display: none;
   }
-  /*---------------------------------------------Main-------------------------------*/
+
+  h1 {
+    margin-bottom: 0px;
+  }
+  .txtreduit {
+    margin: 0px;
+  }
+
   .filtre p {
     width: 100%;
     text-align: start;
     padding-left: 1rem;
   }
+  /*---------------------------------------------Main-------------------------------*/
+
   /*---------------------------Hébergement à Marseille------------*/
   #HetP {
     display: flex;
