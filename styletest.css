@@ -276,11 +276,14 @@ figcaption a {
   width: 100%;
   height: 100%;
 }
-.pade {
+.pade a {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 /*__________________________________________activités à Marseille*/
 #actlist {
   margin: 0px;
