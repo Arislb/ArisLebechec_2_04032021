@@ -72,6 +72,10 @@ form {
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
 }
+::placeholder {
+  color: black;
+  font-weight: bold;
+}
 
 #recherche {
   border: none;
@@ -226,6 +230,7 @@ figcaption a {
 
 #afficherplus {
   padding-left: 1.8rem;
+  margin-bottom: 2.8rem;
 }
 
 /*___________________________________________Les plus populaires*/
@@ -234,6 +239,7 @@ figcaption a {
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
   padding: 25px;
+  margin-left: 5%;
 }
 
 #h3 {
@@ -285,6 +291,11 @@ figcaption a {
 }
 
 /*__________________________________________activités à Marseille*/
+#Activités {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
 #actlist {
   margin: 0px;
   display: flex;
@@ -492,6 +503,9 @@ footer {
     height: 10rem;
     margin-top: 1.8rem;
   }
+  #afficherplus {
+    margin-bottom: 0px;
+  }
 
   /*---------------------------------------------Footer---*/
   footer {
@@ -518,6 +532,9 @@ footer {
   .pcarte {
     margin: revert;
     width: auto;
+  }
+  #afficherplus {
+    margin-bottom: 0px;
   }
 }
 
