@@ -5,7 +5,7 @@ body {
   font-family: Raleway;
 }
 #content {
-  width: 75%;
+  width: 90%;
   margin: auto;
 }
 
@@ -91,7 +91,9 @@ form {
 /*------------------------barre de recherche F*/
 .filtre {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .bouton2 {
@@ -160,6 +162,7 @@ form {
 #HetP {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
 }
 
 .populaires {
@@ -177,7 +180,7 @@ figcaption a {
   padding-left: 1.6rem;
 }
 .hebergement {
-  width: 68%;
+  width: 74%;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
 }
@@ -192,7 +195,7 @@ figcaption a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 19rem;
+  min-width: 14rem;
   height: 100%;
 }
 .hcarte a {
@@ -239,18 +242,18 @@ figcaption a {
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
   padding: 25px;
-  margin-left: 5%;
 }
 
-#h3 {
+.h3 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
 }
-#h3 h3 {
-  margin: 0;
+.h3 i {
+  font-size: larger;
 }
+
 .pcolonne {
   display: flex;
   flex-direction: column;
@@ -309,6 +312,10 @@ figcaption a {
   width: 19rem;
   height: 25rem;
   margin-top: 1rem;
+}
+
+.colonne figcaption {
+  padding-left: 1.5rem;
 }
 
 .carte,
@@ -442,6 +449,14 @@ footer {
     text-align: start;
     padding-left: 1rem;
   }
+
+  .notation {
+    display: flex;
+    text-align: left;
+  }
+  .notation span {
+    display: block;
+  }
   /*---------------------------------------------Main-------------------------------*/
 
   /*---------------------------Hébergement à Marseille------------*/
@@ -521,6 +536,9 @@ footer {
   #HetP {
     flex-wrap: wrap-reverse;
   }
+  .populaires {
+    margin: auto;
+  }
   .hebergement {
     width: 100%;
     background-color: white;
@@ -538,7 +556,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
   #content {
     width: 100%;
   }
