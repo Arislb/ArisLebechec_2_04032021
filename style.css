@@ -51,6 +51,10 @@ nav a {
   /* padding-top: 2rem;
   border-top: 1px #0065fc solid; */
 }
+
+h1 {
+  margin-bottom: 0px;
+}
 /*--------------------------barre de recherche D*/
 
 form {
@@ -62,11 +66,12 @@ form {
   background-color: #f2f2f2;
   display: inline-block;
   border-radius: 10px 0px 0px 10px;
-  padding: 10px;
+  padding: 13px;
 }
 #input {
   border: none;
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 19px;
   margin: 0px;
   outline: none;
   border-top: 1px solid #f2f2f2;
@@ -79,7 +84,8 @@ form {
 
 #recherche {
   border: none;
-  padding: 10px;
+  padding-right: 23px;
+  padding-left: 23px;
   margin: 0px;
   border-radius: 0px 10px 10px 0px;
   color: white;
@@ -263,6 +269,7 @@ figcaption a {
   margin: 0;
   width: auto;
   height: 93%;
+  gap: 2.5rem;
 }
 .pcarte a {
   margin: 0;
@@ -358,6 +365,7 @@ footer {
 }
 .txtreduit {
   font-size: small;
+  margin-top: 0px;
 }
 .Footerbox li {
   padding: 5px;
@@ -424,6 +432,10 @@ footer {
     align-items: center;
     text-align: center;
   }
+
+  .icon_map {
+    padding: 10px;
+  }
   .seach-icon {
     display: block;
     border: none;
@@ -477,14 +489,23 @@ footer {
     flex-direction: column;
     align-items: center;
     height: auto;
+    gap: 1rem;
   }
 
   .hcolonne {
     width: auto;
+    gap: 1rem;
+  }
+
+  .hcarte {
+    height: 12rem;
   }
 
   .populaires {
     width: 100%;
+  }
+  .pcolonne {
+    gap: 1rem;
   }
   /*--------------------------------Activité-à-Marseille*/
   #actlist {
@@ -493,7 +514,6 @@ footer {
 
   .pcarte {
     width: auto;
-    margin-top: 1rem;
     height: 8rem;
   }
 
@@ -501,12 +521,9 @@ footer {
     padding: 0;
   }
 
-  .hcarte {
-    height: 12rem;
-    margin-top: 1.8rem;
-  }
   .colonne {
     height: auto;
+    gap: 1rem;
   }
 
   h2 {
@@ -517,7 +534,6 @@ footer {
   .carteS,
   .carteM {
     height: 10rem;
-    margin-top: 1.8rem;
   }
   #afficherplus {
     margin-bottom: 0px;
@@ -559,6 +575,6 @@ footer {
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   #content {
-    width: 100%;
+    width: 98%;
   }
 }
