@@ -55,12 +55,17 @@ nav a {
 h1 {
   margin-bottom: 0px;
 }
+
+.notation {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 /*--------------------------barre de recherche D*/
 
 form {
   display: flex;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 1rem;
 }
 .icon_map {
   background-color: #f2f2f2;
@@ -251,13 +256,17 @@ figcaption a {
   padding: 25px;
 }
 
-.h3 {
+.Tpopulaires {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
 }
-.h3 i {
+.Tpopulaires h2 {
+  margin: 0px;
+  margin-top: 0.8rem;
+}
+.Tpopulaires i {
   font-size: larger;
 }
 
@@ -265,11 +274,11 @@ figcaption a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  /*   justify-content: space-around; */
   margin: 0;
   width: auto;
-  height: 93%;
-  gap: 2.5rem;
+  height: 100%;
+  gap: 1.2rem;
 }
 .pcarte a {
   margin: 0;
@@ -282,9 +291,10 @@ figcaption a {
   background-color: white;
   border-radius: 20px;
   margin: 0;
+  margin-bottom: 1.3rem;
   padding: 5px;
   width: 20rem;
-  height: 7.5rem;
+  height: 8rem;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 .pphoto {
@@ -466,6 +476,7 @@ footer {
   .notation {
     display: flex;
     text-align: left;
+    margin-bottom: 2rem;
   }
   .notation span {
     display: block;
@@ -506,6 +517,10 @@ footer {
   }
   .pcolonne {
     gap: 1rem;
+  }
+
+  .pcarte {
+    margin-bottom: 0;
   }
   /*--------------------------------Activité-à-Marseille*/
   #actlist {
