@@ -392,7 +392,7 @@ footer {
   body {
     width: 100%;
   }
-  #content {
+  .content {
     width: 100%;
   }
 
@@ -407,6 +407,7 @@ footer {
     display: block;
     position: relative;
   }
+
   nav a {
     margin: 0;
   }
@@ -448,6 +449,15 @@ footer {
     text-align: center;
   }
 
+  .txthead {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .txthead h1 {
+    font-size: 1.4rem;
+  }
+
   .icon_map {
     padding: 10px;
   }
@@ -461,6 +471,9 @@ footer {
     background-color: #0065fc;
   }
 
+  form {
+    margin-top: 2rem;
+  }
   #recherche {
     display: none;
   }
@@ -470,6 +483,7 @@ footer {
   }
   .txtreduit {
     margin: 0px;
+    margin-top: 0.5rem;
   }
 
   .filtre p {
@@ -508,8 +522,12 @@ footer {
     gap: 1rem;
   }
 
+  .colonne {
+    width: 90%;
+  }
+
   .hcolonne {
-    width: auto;
+    width: 100%;
     gap: 1rem;
   }
 
@@ -568,9 +586,10 @@ footer {
 }
 
 @media screen and (min-width: 650px) and (max-width: 1140px) {
-  #content {
-    width: 100%;
+  .content {
+    width: 98%;
   }
+
   #HetP {
     flex-wrap: wrap-reverse;
   }
@@ -604,7 +623,7 @@ footer {
 }
 
 @media screen and (min-width: 1141px) and (max-width: 1440px) {
-  #content {
+  .content {
     width: 98%;
   }
 }
