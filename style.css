@@ -399,7 +399,7 @@ footer {
   #logo {
     width: 4.5rem;
     height: auto;
-    padding-left: 0.5rem;
+    padding-left: 1.5rem;
     padding-top: 0.7rem;
   }
   /*---------------------------------------------header-------------*/
@@ -445,34 +445,40 @@ footer {
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    padding: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    /*   align-items: center;
+    text-align: center; */
   }
 
   .txthead {
-    text-align: left;
+    /*   text-align: left;
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 2rem; */
   }
   .txthead h1 {
     font-size: 1.4rem;
   }
 
   .icon_map {
-    padding: 10px;
+    padding-left: 13px;
+    padding-right: 15px;
   }
   .seach-icon {
     display: block;
     border: none;
-    padding: 10px;
+    padding: 13px;
     margin: 0px;
     border-radius: 10px;
     color: white;
     background-color: #0065fc;
   }
-
   form {
     margin-top: 2rem;
+  }
+  #input {
+    padding-right: 19px;
   }
   #recherche {
     display: none;
@@ -489,13 +495,16 @@ footer {
   .filtre p {
     width: 100%;
     text-align: start;
-    padding-left: 1rem;
+    /*   padding-left: 1rem; */
+  }
+  .bouton2 {
+    margin-left: 0.5rem;
   }
 
   .notation {
     display: flex;
     text-align: left;
-    margin-bottom: 2rem;
+    /*  margin-bottom: 2rem; */
   }
   .notation span {
     display: block;
@@ -520,6 +529,10 @@ footer {
     align-items: center;
     height: auto;
     gap: 1rem;
+  }
+
+  #Hébergement {
+    margin-bottom: 1rem;
   }
 
   .colonne {
@@ -575,6 +588,7 @@ footer {
   }
   #afficherplus {
     margin-bottom: 0px;
+    margin-left: 1rem;
   }
 
   /*---------------------------------------------Footer---*/
