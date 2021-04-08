@@ -4,7 +4,7 @@ body {
   width: 100%;
   font-family: Raleway;
 }
-#content {
+.content {
   width: 90%;
   margin: auto;
 }
@@ -51,22 +51,32 @@ nav a {
   /* padding-top: 2rem;
   border-top: 1px #0065fc solid; */
 }
+
+h1 {
+  margin-bottom: 0px;
+}
+
+.notation {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 /*--------------------------barre de recherche D*/
 
 form {
   display: flex;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 1rem;
 }
 .icon_map {
   background-color: #f2f2f2;
   display: inline-block;
   border-radius: 10px 0px 0px 10px;
-  padding: 10px;
+  padding: 13px;
 }
 #input {
   border: none;
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 19px;
   margin: 0px;
   outline: none;
   border-top: 1px solid #f2f2f2;
@@ -79,7 +89,8 @@ form {
 
 #recherche {
   border: none;
-  padding: 10px;
+  padding-right: 23px;
+  padding-left: 23px;
   margin: 0px;
   border-radius: 0px 10px 10px 0px;
   color: white;
@@ -245,13 +256,17 @@ figcaption a {
   padding: 25px;
 }
 
-.h3 {
+.Tpopulaires {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
 }
-.h3 i {
+.Tpopulaires h2 {
+  margin: 0px;
+  margin-top: 0.8rem;
+}
+.Tpopulaires i {
   font-size: larger;
 }
 
@@ -259,10 +274,11 @@ figcaption a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  /*   justify-content: space-around; */
   margin: 0;
   width: auto;
-  height: 93%;
+  height: 100%;
+  gap: 1.2rem;
 }
 .pcarte a {
   margin: 0;
@@ -275,9 +291,10 @@ figcaption a {
   background-color: white;
   border-radius: 20px;
   margin: 0;
+  margin-bottom: 1.3rem;
   padding: 5px;
   width: 20rem;
-  height: 7.5rem;
+  height: 8rem;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 .pphoto {
@@ -351,13 +368,19 @@ figcaption {
 
 /*-----------------------------------------------------------------------------Footer--------------------------------------------------------------*/
 footer {
-  display: flex;
-  justify-content: space-around;
   background-color: #f2f2f2;
   margin-top: 4rem;
 }
+.centrefooter {
+  display: flex;
+  gap: 22%;
+}
 .txtreduit {
   font-size: small;
+  margin-top: 0px;
+}
+.Footerbox ul {
+  padding: 0;
 }
 .Footerbox li {
   padding: 5px;
@@ -369,14 +392,14 @@ footer {
   body {
     width: 100%;
   }
-  #content {
+  .content {
     width: 100%;
   }
 
   #logo {
     width: 4.5rem;
     height: auto;
-    padding-left: 0.5rem;
+    padding-left: 1.5rem;
     padding-top: 0.7rem;
   }
   /*---------------------------------------------header-------------*/
@@ -384,6 +407,7 @@ footer {
     display: block;
     position: relative;
   }
+
   nav a {
     margin: 0;
   }
@@ -421,19 +445,42 @@ footer {
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    padding: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    /*   align-items: center;
+    text-align: center; */
+  }
+
+  .txthead {
+    /*   text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem; */
+  }
+  .txthead h1 {
+    font-size: 1.4rem;
+  }
+
+  .icon_map {
+    padding-left: 13px;
+    padding-right: 15px;
   }
   .seach-icon {
     display: block;
     border: none;
-    padding: 10px;
+    padding: 13px;
     margin: 0px;
     border-radius: 10px;
     color: white;
     background-color: #0065fc;
   }
-
+  form {
+    margin-top: 2rem;
+  }
+  #input {
+    padding-right: 19px;
+    width: 60%;
+  }
   #recherche {
     display: none;
   }
@@ -443,17 +490,22 @@ footer {
   }
   .txtreduit {
     margin: 0px;
+    margin-top: 0.5rem;
   }
 
   .filtre p {
     width: 100%;
     text-align: start;
-    padding-left: 1rem;
+    /*   padding-left: 1rem; */
+  }
+  .bouton2 {
+    margin-left: 0.5rem;
   }
 
   .notation {
     display: flex;
     text-align: left;
+    /*  margin-bottom: 2rem; */
   }
   .notation span {
     display: block;
@@ -477,14 +529,35 @@ footer {
     flex-direction: column;
     align-items: center;
     height: auto;
+    gap: 1rem;
+  }
+
+  #Hébergement {
+    margin-bottom: 1rem;
+  }
+
+  .colonne {
+    width: 90%;
   }
 
   .hcolonne {
-    width: auto;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .hcarte {
+    height: 12rem;
   }
 
   .populaires {
     width: 100%;
+  }
+  .pcolonne {
+    gap: 1rem;
+  }
+
+  .pcarte {
+    margin-bottom: 0;
   }
   /*--------------------------------Activité-à-Marseille*/
   #actlist {
@@ -493,7 +566,6 @@ footer {
 
   .pcarte {
     width: auto;
-    margin-top: 1rem;
     height: 8rem;
   }
 
@@ -501,12 +573,9 @@ footer {
     padding: 0;
   }
 
-  .hcarte {
-    height: 12rem;
-    margin-top: 1.8rem;
-  }
   .colonne {
     height: auto;
+    gap: 1rem;
   }
 
   h2 {
@@ -517,23 +586,25 @@ footer {
   .carteS,
   .carteM {
     height: 10rem;
-    margin-top: 1.8rem;
   }
   #afficherplus {
     margin-bottom: 0px;
+    margin-left: 1rem;
   }
 
   /*---------------------------------------------Footer---*/
-  footer {
+  .centrefooter {
     display: flex;
     flex-direction: column;
+    gap: 0;
   }
 }
 
-@media screen and (min-width: 650px) and (max-width: 1023px) {
-  #content {
-    width: 100%;
+@media screen and (min-width: 650px) and (max-width: 1140px) {
+  .content {
+    width: 98%;
   }
+
   #HetP {
     flex-wrap: wrap-reverse;
   }
@@ -548,6 +619,9 @@ footer {
     justify-content: space-evenly;
   }
 
+  .pcolonne {
+    align-items: initial;
+  }
   .pcarte {
     margin: revert;
     width: auto;
@@ -555,10 +629,16 @@ footer {
   #afficherplus {
     margin-bottom: 0px;
   }
+
+  .centrefooter {
+    display: flex;
+    justify-content: space-around;
+    gap: 0;
+  }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-  #content {
-    width: 100%;
+@media screen and (min-width: 1141px) and (max-width: 1440px) {
+  .content {
+    width: 98%;
   }
 }
