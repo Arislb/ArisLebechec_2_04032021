@@ -1,4 +1,4 @@
-/*-----------------------------------------------------Body------------------------------------------------------------*/
+/*==========================================================BODY===============================================================================*/
 body {
   margin: 0;
   width: 100%;
@@ -15,7 +15,7 @@ ul {
 .blue {
   color: #0065fc;
 }
-/*-------------------------------------------------------Header--------------------------------------------------------*/
+/*===========================================================================HEADER==========================================================*/
 #logo {
   width: auto;
   height: 3rem;
@@ -47,10 +47,6 @@ nav a {
   color: #0065fc;
   border-top: 2px solid #0065fc;
 }
-.barre {
-  /* padding-top: 2rem;
-  border-top: 1px #0065fc solid; */
-}
 
 h1 {
   margin-bottom: 0px;
@@ -60,11 +56,11 @@ h1 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-/*--------------------------barre de recherche D*/
+
+/*________________________________________Barre de recherche D*/
 
 form {
   display: flex;
-  /* margin-top: 2rem; */
   margin-bottom: 1rem;
 }
 .icon_map {
@@ -96,10 +92,13 @@ form {
   color: white;
   background-color: #0065fc;
 }
+/* vicone de loupe pour le mobilev */
 .seach-icon {
   display: none;
 }
-/*------------------------barre de recherche F*/
+/*-----------------------barre de recherche F*/
+
+/*_____________________________________________Bouton filtre avec icon D*/
 .filtre {
   display: flex;
   align-items: center;
@@ -135,7 +134,6 @@ form {
   background-color: #deebff;
   position: relative;
   right: 0.5rem;
-  /* z-index: 1; */
 }
 .fa-money-bill-wave,
 .fa-child,
@@ -143,32 +141,18 @@ form {
 .fa-heart {
   font-size: 1.2rem;
 }
-/* .bouton {
-  font-family: Raleway;
-  background-color: white;
-  border: 2px solid #f2f2f2;
-  border-radius: 25px;
-  padding: 0;
-  padding-right: 1rem;
-} */
+
 .bouton2:hover {
   border: 2px solid #0065fc;
 }
-/* .filtreicon {
-  color: #0065fc;
-  padding:15px;
-  background-color: #deebff;
-  border-radius: 100%;
-  position: relative;
-  right: 0.5rem;
-  z-index: 1;
-  font-size: 20px;
-} */
 
 .fa-stack {
   font-size: 12px;
 }
-/*-------------------------------------------------------------------main------------------------------------------------------------*/
+/*-----------------------Bouton filtre avec icon F*/
+
+/*=============================================================MAIN==========================================================*/
+
 /*-------------------------------Hébergement---------------------*/
 #HetP {
   display: flex;
@@ -184,7 +168,7 @@ figcaption a {
   text-decoration: none;
   color: black;
 }
-/*_____________________________Hébergement à Marseille*/
+/*______________________________________________Hébergement à Marseille*/
 #Hébergement {
   margin-top: 2.1rem;
   margin-bottom: 0;
@@ -228,7 +212,6 @@ figcaption a {
   border-radius: 20px;
   padding: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-  /* 5px 5px 5px grey; */
 }
 .hphoto {
   object-fit: cover;
@@ -248,7 +231,7 @@ figcaption a {
   margin-bottom: 2.8rem;
 }
 
-/*___________________________________________Les plus populaires*/
+/*_________________________________________________Les plus populaires*/
 
 .populaires {
   background-color: #f2f2f2;
@@ -274,7 +257,6 @@ figcaption a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*   justify-content: space-around; */
   margin: 0;
   width: auto;
   height: 100%;
@@ -311,7 +293,7 @@ figcaption a {
   justify-content: space-between;
 }
 
-/*__________________________________________activités à Marseille*/
+/*______________________________________________________activités à Marseille*/
 #Activités {
   margin-top: 3rem;
   margin-bottom: 0.5rem;
@@ -366,7 +348,7 @@ figcaption {
   padding: 8px;
 }
 
-/*-----------------------------------------------------------------------------Footer--------------------------------------------------------------*/
+/*==============================================================================FOOTER==================================================================================*/
 footer {
   background-color: #f2f2f2;
   margin-top: 4rem;
