@@ -169,7 +169,7 @@ figcaption a {
   color: black;
 }
 /*______________________________________________Hébergement à Marseille*/
-#Hébergement {
+#Hebergement {
   margin-top: 2.1rem;
   margin-bottom: 0;
   padding-left: 1.6rem;
@@ -294,7 +294,7 @@ figcaption a {
 }
 
 /*______________________________________________________activités à Marseille*/
-#Activités {
+#Activites {
   margin-top: 3rem;
   margin-bottom: 0.5rem;
 }
@@ -514,7 +514,7 @@ footer {
     gap: 1rem;
   }
 
-  #Hébergement {
+  #Hebergement {
     margin-bottom: 1rem;
   }
 
@@ -551,7 +551,7 @@ footer {
     height: 8rem;
   }
 
-  #Hébergement {
+  #Hebergement {
     padding: 0;
   }
 
