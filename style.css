@@ -473,6 +473,7 @@ footer {
   .txtreduit {
     margin: 0px;
     margin-top: 0.5rem;
+    font-size: 15px;
   }
 
   .filtre p {
@@ -487,10 +488,13 @@ footer {
   .notation {
     display: flex;
     text-align: left;
+    font-size: 15px;
     /*  margin-bottom: 2rem; */
   }
   .notation span {
     display: block;
+    padding-right: 1rem;
+    font-size: 10px;
   }
   /*---------------------------------------------Main-------------------------------*/
 
